@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Basket Counter</string>
+    <string name="tim_a">Masukkan nama Tim A</string>
+    <string name="tim_b">Masukkan nama Tim B</string>
+    
+    <string name="btn_input">INPUT</string>
+    <string name="btn_satu">SATU POIN</string>
+    <string name="btn_dua">DUA POIN</string>
+    <string name="btn_tiga">TIGA POIN</string>
+    <string name="btn_reset">RESET PERHITUNGAN</string>
+    
+    <string name="txt_tim_a">Point Tim A</string>
+    <string name="txt_tim_b">Point Tim B</string>
+    
+    <string name="title_activity_skor">SkorActivity</string>
+    
+    
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
