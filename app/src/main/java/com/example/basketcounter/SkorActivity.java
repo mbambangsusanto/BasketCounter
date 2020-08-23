@@ -13,6 +13,9 @@ import android.widget.TextView;
 
 public class SkorActivity extends AppCompatActivity {
 
+    int skorTimA = 0;
+    int skorTimB = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,5 +35,65 @@ public class SkorActivity extends AppCompatActivity {
         namaTimA.setText("Team" + " " + namaA);
         namaTimB.setText("Team" + " " + namaB);
 
+    }
+
+    public void TampilanSkorTimA(int skor)
+    {
+        TextView txtSkor = (TextView) findViewById(R.id.txt_poin_tim_a);
+        txtSkor.setText(String.valueOf(skor));
+    }
+
+    public void SatuPoinA(View v)
+    {
+        skorTimA += 1;
+        TampilanSkorTimA(skorTimA);
+    }
+
+    public void DuaPoinA(View v)
+    {
+        skorTimA += 2;
+        TampilanSkorTimA(skorTimA);
+    }
+
+    public void TigaPoinA(View v)
+    {
+        skorTimA += 3;
+        TampilanSkorTimA(skorTimA);
+    }
+
+    public void TampilanSkorTimB(int skor)
+    {
+        TextView txtSkor = (TextView) findViewById(R.id.txt_poin_tim_b);
+        txtSkor.setText(String.valueOf(skor));
+    }
+
+    public void SatuPoinB(View v)
+    {
+        skorTimB += 1;
+        TampilanSkorTimB(skorTimB);
+    }
+
+    public void DuaPoinB(View v)
+    {
+        skorTimB += 2;
+        TampilanSkorTimB(skorTimB);
+    }
+
+    public void TigaPoinB(View v)
+    {
+        skorTimB += 3;
+        TampilanSkorTimB(skorTimB);
+    }
+
+    public void ResetA(View v)
+    {
+        skorTimA = 0;
+        TampilanSkorTimA(skorTimA);
+    }
+
+    public void ResetB(View v)
+    {
+        skorTimB = 0;
+        TampilanSkorTimB(skorTimB);
     }
 }

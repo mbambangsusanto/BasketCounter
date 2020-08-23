@@ -26,18 +26,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
-            android:text="@string/btn_satu" />
+            android:text="@string/btn_satu"
+            android:onClick="SatuPoinA"/>
         <Button
             android:id="@+id/btn_dua_poin_tim_a"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
-            android:text="@string/btn_dua" />
+            android:text="@string/btn_dua"
+            android:onClick="DuaPoinA"/>
         <Button
             android:id="@+id/btn_tiga_poin_tim_a"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_tiga" />
+            android:text="@string/btn_tiga"
+            android:onClick="TigaPoinA"/>
     </LinearLayout>
 
     <LinearLayout
@@ -65,7 +68,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/btn_reset" />
+            android:text="@string/btn_reset"
+            android:onClick="ResetA"/>
     </LinearLayout>
 
 
@@ -81,7 +85,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/btn_reset" />
+            android:text="@string/btn_reset"
+            android:onClick="ResetB"/>
         <TextView
             android:id="@+id/txt_poin_tim_b"
             android:layout_width="wrap_content"
@@ -112,18 +117,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
-            android:text="@string/btn_satu" />
+            android:text="@string/btn_satu"
+            android:onClick="SatuPoinB"/>
         <Button
             android:id="@+id/btn_dua_poin_tim_b"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
-            android:text="@string/btn_dua" />
+            android:text="@string/btn_dua"
+            android:onClick="DuaPoinB"/>
         <Button
             android:id="@+id/btn_tiga_poin_tim_b"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_tiga" />
+            android:text="@string/btn_tiga"
+            android:onClick="TigaPoinB"/>
     </LinearLayout>
 
 </LinearLayout>
